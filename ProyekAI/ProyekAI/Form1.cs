@@ -14,6 +14,7 @@ namespace ProyekAI
     {
         public Form1()
         {
+
             InitializeComponent();
             createLabel(panel1);
             createLabel(panel2);
@@ -36,14 +37,7 @@ namespace ProyekAI
                     l.Size = new Size(100, 100);
 
                     l.Location = new Point(x, y);
-                    if (j % 2 == 0)
-                    {
-                        l.BackColor = Color.Red;
-                    }
-                    else
-                    {
-                        l.BackColor = Color.Blue;
-                    }
+                    if()
 
                     panelx.Controls.Add(l);
                     x += 100;

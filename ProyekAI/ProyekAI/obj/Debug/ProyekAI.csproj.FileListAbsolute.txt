@@ -8,3 +8,13 @@ D:\kuliahsemester_5\AI\Proyek_Ai\ProyekAI\ProyekAI\obj\Debug\ProyekAI.csproj.Gen
 D:\kuliahsemester_5\AI\Proyek_Ai\ProyekAI\ProyekAI\obj\Debug\ProyekAI.csproj.CoreCompileInputs.cache
 D:\kuliahsemester_5\AI\Proyek_Ai\ProyekAI\ProyekAI\obj\Debug\ProyekAI.exe
 D:\kuliahsemester_5\AI\Proyek_Ai\ProyekAI\ProyekAI\obj\Debug\ProyekAI.pdb
+E:\Kuliah\Sem5\AI\Proyek\Proyek_Ai\ProyekAI\ProyekAI\bin\Debug\ProyekAI.exe.config
+E:\Kuliah\Sem5\AI\Proyek\Proyek_Ai\ProyekAI\ProyekAI\bin\Debug\ProyekAI.exe
+E:\Kuliah\Sem5\AI\Proyek\Proyek_Ai\ProyekAI\ProyekAI\bin\Debug\ProyekAI.pdb
+E:\Kuliah\Sem5\AI\Proyek\Proyek_Ai\ProyekAI\ProyekAI\obj\Debug\ProyekAI.csprojAssemblyReference.cache
+E:\Kuliah\Sem5\AI\Proyek\Proyek_Ai\ProyekAI\ProyekAI\obj\Debug\ProyekAI.Form1.resources
+E:\Kuliah\Sem5\AI\Proyek\Proyek_Ai\ProyekAI\ProyekAI\obj\Debug\ProyekAI.Properties.Resources.resources
+E:\Kuliah\Sem5\AI\Proyek\Proyek_Ai\ProyekAI\ProyekAI\obj\Debug\ProyekAI.csproj.GenerateResource.cache
+E:\Kuliah\Sem5\AI\Proyek\Proyek_Ai\ProyekAI\ProyekAI\obj\Debug\ProyekAI.csproj.CoreCompileInputs.cache
+E:\Kuliah\Sem5\AI\Proyek\Proyek_Ai\ProyekAI\ProyekAI\obj\Debug\ProyekAI.exe
+E:\Kuliah\Sem5\AI\Proyek\Proyek_Ai\ProyekAI\ProyekAI\obj\Debug\ProyekAI.pdb

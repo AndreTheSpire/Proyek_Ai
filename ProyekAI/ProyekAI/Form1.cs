@@ -13,12 +13,14 @@ namespace ProyekAI
 {
     public partial class Form1 : Form
     {
-        static List<Stone> stones;
+        List<Stone> stones;
+        Form1 form = null;
         public Form1()
         {
             InitializeComponent();
 
             initStones();
+            form = this;
             createLabel(panel1, 1);
             createLabel(panel2, 2);
             createLabel(panel3, 3);
@@ -36,6 +38,7 @@ namespace ProyekAI
         }
         public void createLabel(Panel panelx, int board)
         {
+            panelx.Controls.Clear();
             int x = 0, y = 0;
             for (int i = 0; i < 4; i++)
             {
@@ -118,5 +121,14 @@ namespace ProyekAI
         {
 
         }
+
+        private void btnsubmitmove_Click(object sender, EventArgs e)
+        {
+            BoardEvaluator evaluator = new BoardEvaluator();
+            Console.WriteLine(evaluator.stoneCount(stones, 1));
+            createLabel(panel1, 1);
+        }
+
+        
     }
 }

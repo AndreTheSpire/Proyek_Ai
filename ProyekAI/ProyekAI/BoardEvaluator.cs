@@ -9,7 +9,13 @@ namespace ProyekAI
 {
     class BoardEvaluator
     {
-        
+        int[,] setMoves = new int[,] {
+            {0,1}, {0,-1}, {1,0}, {-1,0},
+            {0,2}, {0,-2}, {2,0}, {-2,0},
+            {1,1}, {-1,-1}, {-1,1}, {1,-1},
+            {2,2}, {-2,-2}, {-2,2}, {2,-2}
+        };
+
         public int stoneCount(List<Stone> stones, int side)
         {
 
@@ -29,9 +35,39 @@ namespace ProyekAI
             return stone;
         }
 
+        public int threatenedStones(List<Stone> stones, int side)
+        {
+            int opp = 0;
+            if (side == 0)
+            {
+                opp = 1;
+            }
+            int point = 0;
+            foreach (Stone s in stones)
+            {
+                if (s.side == side)
+                {
+                    for(int i=0; i<16; i++)
+                    {
+                        int cekX = s.x + setMoves[i, 0];
+                        int cekY = s.y + setMoves[i, 1];
+
+                        foreach(Stone opponentStone in stones)
+                        {
+                            if (opponentStone.side == opp && opponentStone.x == cekX && opponentStone.y == cekY)
+                            {
+                                point++;
+                            }
+                        }
+
+                    }
+                }
+            }
+            return point;
+        }
 
 
-        public int possibleMoves()
+        public int possiblePassiveMoves()
         {
             return 0;
         }

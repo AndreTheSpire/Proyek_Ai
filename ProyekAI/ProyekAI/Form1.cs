@@ -15,6 +15,7 @@ namespace ProyekAI
     {
         List<Stone> stones;
         Form1 form = null;
+        BoardEvaluator evaluator = new BoardEvaluator();
         public Form1()
         {
             InitializeComponent();
@@ -124,11 +125,10 @@ namespace ProyekAI
 
         private void btnsubmitmove_Click(object sender, EventArgs e)
         {
-            BoardEvaluator evaluator = new BoardEvaluator();
             Console.WriteLine(evaluator.stoneCount(stones, 1));
             createLabel(panel1, 1);
+            evaluator.threatenedStones(stones, 1);
         }
 
-        
     }
 }
